@@ -1,0 +1,225 @@
+/* desktop design */
+
+body{
+
+background-color: hsl(217, 54%, 11%) ;
+}
+
+#contenedorCard{
+
+background-color:hsl(216, 50%, 16%);
+
+padding: 1.2%;
+
+border-radius: 3%;
+
+width: 18%;
+
+margin-top: 5%;
+
+margin-left: 40%;
+
+margin-right: 40%;
+
+box-shadow: 1px 2px 35px 11px hsl(217, 68%, 7%);
+-webkit-box-shadow: 1px 2px 35px 11px hsl(217, 68%, 7%);
+-moz-box-shadow: 1px 2px 35px 11px hsl(217, 68%, 7%);
+
+}
+
+
+#imagen1{
+    width: 100%;
+    border-radius: 3%;
+}
+
+
+#imagen2{
+    width: 100%;
+    border-radius: 3%;
+}
+
+/* para el intercambio de imagenes/*
+
+.hover_image:hover {text-decoration: none} /* Optional (avoid undesired underscore if a is used as wrapper) */
+.hide {display:none}
+/* Do the shift: */
+.hover_image:hover img:first-child{display:none}
+.hover_image:hover img:last-child{display:inline-block}
+
+
+
+
+
+#eq{
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 145%;
+    color: hsl(0, 0%, 100%);
+}
+
+#eq:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+
+#parrafoPrincipal{
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 112%;
+    color: hsl(215, 51%, 70%);
+
+}
+
+#num{
+font-family: 'Outfit', sans-serif;
+font-family: 'Readex Pro', sans-serif;
+font-size: 105%;
+color: hsl(178, 100%, 50%);
+margin-left: 5px;
+}
+
+#divCosoVerde{
+    display: flex;  
+    flex-direction: row; 
+    align-items: center;
+
+}
+
+
+#divContenedorInline{
+    display: flex;  
+    flex-direction: row; 
+    justify-content: space-between;
+ 
+}
+
+#par3{
+font-family: 'Outfit', sans-serif;
+font-family: 'Readex Pro', sans-serif;
+font-size: 105%;
+color: hsl(215, 51%, 70%);
+}
+
+#clock{
+
+margin-right:6px;
+}
+
+#divClock{
+    display: flex;  
+    flex-direction: row; 
+    align-items: center; 
+}
+
+#divFoto{
+    display: flex;  
+    flex-direction: row; 
+    align-items: center;
+
+}
+
+#foto{
+    width: 9%;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin-right: 4%;
+
+}
+
+#creationof{
+    font-family: 'Outfit', sans-serif;
+font-family: 'Readex Pro', sans-serif;
+font-size: 100%;
+color: hsl(215, 51%, 70%);
+
+}
+
+#julesWyvern{
+    margin-left: 1%;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 100%;
+    color: hsl(0, 0%, 100%);
+
+}
+
+#julesWyvern:hover{
+
+    color:hsl(178, 100%, 50%) ;
+
+}
+
+hr{
+border-color: hsl(215, 51%, 70%);
+
+}
+
+
+
+
+
+/* mobile design*/
+
+
+@media only screen and (max-width:600px ) 
+{
+
+
+    #contenedorCard{
+
+        
+        padding: 7%;
+        
+        width: 75%;
+
+        margin-top: 9%;
+
+        margin-left: 6%;
+
+        margin-right: 6%;
+        
+        
+        }
+
+        #eq{
+            font-size: 130%;
+        }
+
+        #parrafoPrincipal{
+            font-size: 96%;
+            line-height: 30px;
+            margin-bottom: 0.2%;
+        
+        }
+        
+        #num{
+        font-size: 96%;
+
+        }
+
+
+        #par3{
+            font-size: 96%;
+            }
+
+
+
+
+    #creationof{
+            font-size: 96%;
+            
+            }
+            
+    #julesWyvern{
+                font-size: 96%;
+            
+            }
+
+     #foto{
+                width: 11%;
+            
+            }
+
+
+}
